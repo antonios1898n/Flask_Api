@@ -80,6 +80,7 @@ Validations
 Validation of task data is performed using the TaskValidator class in a separate module.
 
 Dont forget to change this app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:password@localhost:5432/postgres" according to your postgreSQL credentials.
+use this so you start your apis on Postman : flask run --port 8000
 
 This section now includes instructions on setting up the project environment,
  installing dependencies, and creating database models in PostgreSQL. 
